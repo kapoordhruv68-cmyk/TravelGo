@@ -1,0 +1,506 @@
+/* =========================================
+   MOBILE RESPONSIVE CSS
+   DO NOT CHANGE DESKTOP CSS
+   ========================================= */
+
+@media screen and (max-width: 768px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .container {
+        width: 100%;
+        height: auto;
+    }
+
+    /* =========================================
+       NAVBAR
+       ========================================= */
+
+    .container .navbar {
+        width: 100%;
+        padding: 15px 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .container .navbar h1 {
+        font-size: 28px;
+    }
+
+    .container .navbar h1 i {
+        font-size: 25px;
+    }
+
+    .container .navbar ul {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 18px;
+    }
+
+    .container .navbar ul li {
+        font-size: 14px;
+    }
+
+    .container .navbar > i {
+        font-size: 13px;
+    }
+
+
+    /* =========================================
+       HERO / SWIPER
+       ========================================= */
+
+    .container .innercontainer {
+        width: 100%;
+        height: 500px;
+    }
+
+    .container .innercontainer swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .container .innercontainer swiper-slide {
+        width: 100%;
+        height: 100%;
+    }
+
+    .container .innercontainer swiper-slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .container .innercontainer .box {
+        width: 85%;
+        height: auto;
+        left: 7.5%;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 18px;
+        background-color: rgba(201, 194, 194, 0.55);
+    }
+
+    .container .innercontainer .box h1 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    .container .innercontainer .box h1 span {
+        font-size: 28px;
+    }
+
+    .container .innercontainer .box p {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+
+    /* =========================================
+       SEARCH SECTION
+       ========================================= */
+
+    .container .section {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .container .section .innersection {
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        top: -30px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+        padding: 20px;
+        gap: 8px;
+
+        font-size: 14px;
+        border-radius: 15px;
+    }
+
+    .container .section .innersection hr {
+        width: 100%;
+        border: none;
+        border-top: 1px solid #ddd;
+        margin: 8px 0;
+    }
+
+    .container .section .innersection i {
+        font-size: 18px;
+    }
+
+    .container .section .innersection button {
+        width: 100%;
+        margin-top: 10px;
+        padding: 12px;
+        font-size: 15px;
+    }
+
+
+    /* =========================================
+       POPULAR DESTINATIONS
+       ========================================= */
+
+    .container .roundbox {
+        width: 100%;
+        padding: 120px 15px 30px;
+        text-align: center;
+    }
+
+    .container .roundbox p {
+        font-size: 13px;
+    }
+
+    .container .roundbox h1 {
+        font-size: 28px;
+        margin-top: 8px;
+    }
+
+    .container .roundbox .innerbox2 {
+        width: 100%;
+        padding: 15px 0;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .container .roundbox .innerbox2 .showbox {
+        width: 100%;
+        height: 330px;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .container .roundbox .innerbox2 .showbox img {
+        width: 100%;
+        height: 88%;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+
+
+    /* =========================================
+       TOUR PACKAGES
+       ========================================= */
+
+    .container .squarebox {
+        width: 100%;
+        padding: 35px 15px;
+        text-align: center;
+    }
+
+    .container .squarebox p {
+        font-size: 13px;
+    }
+
+    .container .squarebox h1 {
+        font-size: 28px;
+        margin-top: 8px;
+    }
+
+    .container .squarebox .innerbox {
+        width: 100%;
+        padding: 15px 0;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .container .squarebox .innerbox .cartbox {
+        width: 100%;
+        height: auto;
+        min-height: 350px;
+
+        padding: 10px;
+        border-radius: 12px;
+        font-size: 15px;
+    }
+
+    .container .squarebox .innerbox .cartbox img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .container .squarebox .innerbox .cartbox b {
+        display: inline-block;
+        font-size: 20px;
+        margin-top: 8px;
+    }
+
+    .container .squarebox .innerbox .cartbox span1 {
+        margin: 5px;
+        font-size: 18px;
+    }
+
+
+    /* =========================================
+       WHY TRAVEL WITH US
+       ========================================= */
+
+    .container .smallbox {
+        width: 100%;
+        padding: 35px 15px;
+        text-align: center;
+    }
+
+    .container .smallbox p {
+        font-size: 13px;
+    }
+
+    .container .smallbox h1 {
+        font-size: 28px;
+        margin-top: 8px;
+    }
+
+    .container .smallbox .innerbox3 {
+        width: 100%;
+        padding: 15px 0;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .container .smallbox .innerbox3 .shotbox {
+        width: 100%;
+        height: auto;
+        min-height: 240px;
+
+        padding: 20px;
+        border-radius: 30px;
+    }
+
+    .container .smallbox .innerbox3 .shotbox .circlebox {
+        width: 75px;
+        height: 75px;
+        padding: 10px;
+        border-radius: 50%;
+        flex-shrink: 0;
+    }
+
+    .container .smallbox .innerbox3 .shotbox .circlebox i {
+        font-size: 30px;
+    }
+
+    .container .smallbox .innerbox3 .shotbox h3 {
+        font-size: 19px;
+        margin: 12px 0 8px;
+    }
+
+    .container .smallbox .innerbox3 .shotbox p {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+
+    /* =========================================
+       TRAVELLER COMMENTS
+       ========================================= */
+
+    .container .commentbox {
+        width: 100%;
+        padding: 35px 15px;
+        text-align: center;
+    }
+
+    .container .commentbox p {
+        font-size: 13px;
+    }
+
+    .container .commentbox h1 {
+        font-size: 28px;
+        margin-top: 8px;
+    }
+
+    .container .commentbox .innerbox4 {
+        width: 100%;
+        padding: 15px 0;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .container .commentbox .innerbox4 .comment {
+        width: 100%;
+        height: auto;
+        min-height: 220px;
+
+        padding: 18px;
+        font-size: 14px;
+        line-height: 1.5;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .commentbox .innerbox4 .comment > i {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .container .commentbox .innerbox4 .comment .comment1 {
+        width: 100%;
+        margin-top: auto;
+        padding: 10px 0;
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .container .commentbox .innerbox4 .comment .comment1 img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+
+    /* =========================================
+       FOOTER
+       ========================================= */
+
+    .container .footer {
+        width: 100%;
+        padding: 35px 20px;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+
+        text-align: left;
+    }
+
+    .container .footer .info {
+        width: 100%;
+        height: auto;
+        padding: 5px;
+    }
+
+    .container .footer .info h1 {
+        font-size: 28px;
+    }
+
+    .container .footer .info h1 i {
+        font-size: 35px;
+        padding: 0 8px;
+    }
+
+    .container .footer .info > i {
+        font-size: 20px;
+        padding: 0 8px;
+    }
+
+    .container .footer .info h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .container .footer .info ul {
+        padding: 0;
+    }
+
+    .container .footer .info li {
+        padding: 5px 0;
+        font-size: 14px;
+    }
+}
+
+
+/* =========================================
+   EXTRA SMALL PHONES
+   ========================================= */
+
+@media screen and (max-width: 480px) {
+
+    .container .navbar h1 {
+        font-size: 24px;
+    }
+
+    .container .navbar ul {
+        gap: 8px 12px;
+    }
+
+    .container .navbar ul li {
+        font-size: 12px;
+    }
+
+    .container .navbar > i {
+        font-size: 12px;
+    }
+
+    .container .innercontainer {
+        height: 420px;
+    }
+
+    .container .innercontainer .box {
+        width: 88%;
+        left: 6%;
+        padding: 15px;
+    }
+
+    .container .innercontainer .box h1 {
+        font-size: 27px;
+    }
+
+    .container .innercontainer .box h1 span {
+        font-size: 23px;
+    }
+
+    .container .innercontainer .box p {
+        font-size: 13px;
+    }
+
+    .container .roundbox {
+        padding-top: 115px;
+    }
+
+    .container .roundbox h1,
+    .container .squarebox h1,
+    .container .smallbox h1,
+    .container .commentbox h1 {
+        font-size: 24px;
+    }
+
+    .container .roundbox .innerbox2 .showbox {
+        height: 300px;
+    }
+
+    .container .roundbox .innerbox2 .showbox img {
+        height: 85%;
+    }
+
+    .container .squarebox .innerbox .cartbox img {
+        height: 200px;
+    }
+
+    .container .footer {
+        padding: 30px 15px;
+    }
+}
